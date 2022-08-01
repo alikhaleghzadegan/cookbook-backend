@@ -10,17 +10,19 @@
   "author": "vanessa",
   "license": "ISC",
   "dependencies": {
+    "dotenv": "^16.0.1",
     "ejs": "^3.1.8",
     "express": "^4.18.1",
     "mysql": "^2.18.1",
-    "nodemon": "^2.0.19"
+    "nodemon": "^2.0.19",
+    "sequelize": "^6.21.3"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/alikhaleghzadegan/cookbook-backend.git"
   },
   "keywords": [
-    "vanessa"
+    "backend"
   ],
   "bugs": {
     "url": "https://github.com/alikhaleghzadegan/cookbook-backend/issues"
