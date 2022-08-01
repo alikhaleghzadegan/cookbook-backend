@@ -9,7 +9,7 @@ dotenv.config({ path: "./.env" });
 const namepswd = process.env.Pswd;
 app.use(express.static(__dirname + "/public"));
 app.use(express.json());
-const PORT = process.env.PORT || 5000;
+const PORT = 5000;
 //   res.status(200).json({ name });
 // });
 
